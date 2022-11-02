@@ -9,7 +9,7 @@ function Home() {
     return (
       <div className="Home">
           <div className='m-3'>
-    <Navbar bg="dark" variant="dark" className='m-10'>
+       <Navbar bg="dark" variant="dark" className='m-10'>
         <Container>
           <Navbar.Brand href="#home">
             <img
