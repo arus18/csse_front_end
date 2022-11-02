@@ -32,7 +32,7 @@ function Order() {
       <td>{item.id}</td>
       <td>{item.name}</td>
       <ButtonGroup>
-          <Button size="sm" color="primary" onClick={() => remove(item.id)}>Edit</Button>
+          <Button size="sm" color="primary" onClick={() => remove(item.id)}>Remove</Button>
       </ButtonGroup>
     </tr>
   });
@@ -53,8 +53,6 @@ function Order() {
       }
       }});
       window.location.reload(false);
-      console.log(id);
-      console.log(items);
     });
   }
   
