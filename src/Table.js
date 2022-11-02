@@ -25,7 +25,7 @@ function Table() {
       <td>{order.id}</td>
       <td>{order.name}</td>
       <ButtonGroup>
-        <Button size="sm" color="primary"><Link to={"/order/" + order.id}>Manage JUG Tour</Link></Button>
+        <Button size="sm" color="primary"><Link to={"/order/" + order.id}>View</Link></Button>
       </ButtonGroup>
     </tr>
   });
