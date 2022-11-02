@@ -25,6 +25,7 @@ function Home() {
             <Nav.Link href="#home"><Button variant="primary">Primary</Button></Nav.Link>
             <Nav.Link href="#features"><Button variant="primary">Primary</Button></Nav.Link>
             <Nav.Link href="#pricing"><Button variant="primary">Primary</Button></Nav.Link>
+            <Nav.Link><Button><Link to={"/Add_product"}>Add Product</Link></Button></Nav.Link>
           </Nav>
         </Container>
       </Navbar>
